@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    /* background: #000; */
+    position: relative;
+    height: 50vh;
+    width: 24.2vw;
+    background-image: url("https://i.pinimg.com/originals/63/f2/28/63f2287eedbfadbeddd41ca3105947a2.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:2px solid black;
+}
+
+#hour,
+#minute,
+#second {
+    background-color: aqua;
+    position: absolute;
+    border-radius: 14px 14px 0 0;
+    transform-origin:bottom;
+    
+    
+    
+}
+
+#hour {
+    
+    height: 20%;
+    width: 1vw;
+    left: 47.2%;
+    top: 14%;
+    /* rotate: 90deg; */
+    
+}
+
+#minute {
+    background-color: brown;
+    height: 69px;
+    width: 5px;
+    left: 48.2%;
+    top: 7%;
+    /* display: none; */
+
+}
+
+#second {
+    background: blueviolet;
+    height: 64px;
+    width: 4px;
+    left: 48.3%;
+    top: 9%;
+    /* transform-origin:bottom; */
+    /* display: none; */
+
+}
