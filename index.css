@@ -8,14 +8,14 @@ body {
 }
 
 #clock {
-    /* background: #000; */
+    background: brown;
     position: relative;
     height: 50vh;
-    width: 24.2vw;
-    background-image: url("https://i.pinimg.com/originals/63/f2/28/63f2287eedbfadbeddd41ca3105947a2.gif");
+    width: 50vh;
+    /* background-image: url("https://i.pinimg.com/originals/63/f2/28/63f2287eedbfadbeddd41ca3105947a2.gif"); */
     background-repeat: no-repeat;
-    background-size: 100%;
-    border:2px solid black;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 #hour,
@@ -23,40 +23,29 @@ body {
 #second {
     background-color: aqua;
     position: absolute;
-    border-radius: 14px 14px 0 0;
-    transform-origin:bottom;
-    
-    
-    
 }
 
 #hour {
-    
     height: 20%;
-    width: 1vw;
-    left: 47.2%;
-    top: 14%;
-    /* rotate: 90deg; */
+    width: 5%;
     
+    left: 47.5%;
+    top: 30%;
 }
 
 #minute {
     background-color: brown;
-    height: 69px;
-    width: 5px;
-    left: 48.2%;
-    top: 7%;
-    /* display: none; */
-
+    height: 37%;
+    width: 1%;
+    left: 49.5%;
+    top: 15%;
 }
 
 #second {
     background: blueviolet;
-    height: 64px;
-    width: 4px;
-    left: 48.3%;
-    top: 9%;
-    /* transform-origin:bottom; */
-    /* display: none; */
-
+    height: 48%;
+    width: 0.2%;
+    left: 50%;
+    top: 10%;
+    transform-origin: 0% 85%;
 }
